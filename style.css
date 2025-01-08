@@ -102,6 +102,7 @@ body {
 {
     background-color: #E84A34;
     min-height: 6vh;
+    width:6vh;
     border-radius: 100%;
 }
 .item-Price
