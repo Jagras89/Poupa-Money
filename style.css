@@ -1,0 +1,115 @@
+
+
+
+:root {
+    --txt-grey: #828184;
+    --txt-white: #FFFFFF;
+    --txt-red: #E84A34;
+    --txt-green: #89EB79;
+}
+
+body {
+    background-color: #110F17;
+    font-family: "ADLaM Display", serif;
+    margin: 0;
+    padding: 0;
+}
+
+#contentWallet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#myWallet {
+    margin-top: 15%;
+    background-color: #1F1E29;
+    min-height: 27vh;
+    width: 87%;
+    border-radius: 2vh;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombreamento */
+}
+
+.txtTitle {
+    color: var(--txt-grey);
+    font-size: 1rem;
+    transition: all 0.3s ease; /* Transições suaves */
+}
+
+#stats {
+    margin-top: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 1vh;
+}
+
+.sardo {
+    margin-top: 2vh;
+    padding-left: 13%;
+    line-height: 1vh;
+}
+
+.white {
+    color: var(--txt-white);
+}
+
+.red {
+    color: var(--txt-red);
+}
+
+.green {
+    color: var(--txt-green);
+}
+
+.txtMoney {
+    font-size: 1rem;
+    transition: all 0.3s ease; /* Transições suaves */
+}
+#addDespesa
+{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.btnCadastrar
+{
+    text-align: center;
+    font-size: 1rem;
+    background-color: #CBE012;
+    border: none;
+    font-family: "ADLaM Display", serif;
+    border-radius: 1vh;
+    min-height: 8vh;
+    width: 25vh;
+}
+.item-Transaction
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.list-Transaction
+{
+    margin-top: -1vh;
+    margin-right: 6vh;
+}
+.item-Img
+{
+    background-color: #E84A34;
+    min-height: 6vh;
+    border-radius: 100%;
+}
+.item-Price
+{
+    color: var(--txt-grey);
+}
+#seeMore
+{
+    display: flex;
+    justify-content: space-around;
+}
