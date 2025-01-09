@@ -67,3 +67,34 @@ a{
 {
     color: var(--txt-grey);
 }
+.menu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ogo
+{
+    position: absolute;
+}
+.hamb
+{
+    margin-left: 35vh;
+}
+.user
+{
+    margin-top: 8%;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 27vh;
+    gap: 1vh;
+    color: #CBE012;
+}
+.user-Avatar
+{
+    width:5vh;
+    height:5vh;
+    border-radius: 100%;
+}
