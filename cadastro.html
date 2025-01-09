@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="cadastro.css" />
+</head>
+<body>
+    
+
+    <section id="contentCadastro">
+
+        <img width="100" height="100" src="https://img.icons8.com/quill/100/cbe012/money-bag-franc.png" alt="money-bag-franc"/>
+        <p class="txtTitle white">Cadastro de Despesas</p>
+
+
+        <div class="returnMenu">
+            <a href="index.html">
+            <img src="https://img.icons8.com/ios/50/7A787D/left--v1.png" alt="left--v1"/>
+            </a>
+            <p class="grey">Retornar ao Menu</p>
+          
+        </div>
+        
+        <article class="articleCadastro">
+            <p class="txtTitle">Nome da Despesa </p>
+            <input class="txtName" placeholder="Digite aqui..." type="text" />
+        </article>
+
+        <article class="articleCadastro">
+            <p class="txtTitle">Valor da Despesa (em reais)</p>
+            <input class="txtName" placeholder="Digite aqui..." type="text" />
+        </article>
+
+        <article class="articleCadastro">
+            <p class="txtTitle">Data da Despesa</p>
+            <input class="txtName" placeholder="Digite aqui..." type="date" />
+        </article>
+
+        <article class="articleCadastro">
+            <p class="txtTitle">Categoria da Despesa</p>
+            <input class="txtName" placeholder="Digite aqui..." list="categorias" />
+            <datalist id="categorias">
+              <option value="Alimentação">
+              <option value="Transporte">
+              <option value="Saúde">
+              <option value="Educação">
+              <option value="Lazer">
+            </datalist>
+          </article>
+          
+          
+
+        <div class="button">
+            <input class="btnCadastrar" type="button" value="CADASTRAR">
+        </div>
+
+    </section>
+
+
+</body>
+</html>

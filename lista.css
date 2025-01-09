@@ -1,0 +1,32 @@
+
+
+
+
+#content-list
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vh;
+}
+.returnMenu
+{
+    margin-top: 4vh;
+    
+}
+.item-Transaction
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    line-height: 4vh;
+    padding: 1vh 0;
+    border-bottom: 1px solid #cccccc2a; /* opcional para uma linha separadora */
+}
+.list-Transaction
+{
+  
+    margin-right: 8vh;
+    width: 90%;
+
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poupa Money - Sua Poupaça Pessoal</title>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,8 +15,9 @@
     <div id="contentWallet">
 
         <img width="100" height="100" src="https://img.icons8.com/quill/100/cbe012/money-bag-franc.png" alt="money-bag-franc"/>
-        
+       
         <section id="myWallet">
+            
             <header class= "sardo">
                 <p class="txtTitle">Minha Carteira</p>
                 <p class="txtMoney white">R$ 600,00</p>
@@ -37,7 +39,7 @@
     <section id="addDespesa">
         <p class="white">Deseja adicionar um novo gasto?</p>
         <article>
-            <input class="btnCadastrar" type="button" value="CLIQUE AQUI">
+            <a href="cadastro.html"><input class="btnCadastrar" type="button" value="CLIQUE AQUI"></a>
         </article>
     </section>
 
@@ -45,7 +47,7 @@
     <section id="lastTransactions">
         <header id="seeMore">
             <p class="txtTitle white">Últimos Gastos</p>
-            <p class="txtTitle">Ver Mais</p>
+            <a href="lista.html"><p class="txtTitle">Ver Mais</p></a>
         </header>
 
         <ul class="list-Transaction">
